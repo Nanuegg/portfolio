@@ -1,0 +1,75 @@
+*{color: white;
+background: black;
+}
+body
+    { 
+        font-family: "Sofadi One", system-ui;
+        
+        font-style: normal;
+        
+        font-weight: 400;
+    }
+ 
+.seccion-2 
+    {
+        display: flex;
+    }
+
+.foto1
+    {
+        width: 350px;
+        
+        height: 250px;
+
+    }
+
+.foto2
+    {
+        width: 350px;
+        
+        height: 250px;
+
+    }
+
+header 
+    {
+        display: flex;
+    
+        align-items: center ;
+        
+        justify-content: space-between;
+    }
+
+ header nav ul 
+    {
+        display: flex;
+        
+        gap: 1em;
+    }
+
+footer ul  
+    {
+        display: flex;
+
+        gap: 1em;
+        
+        justify-content: right;
+    }
+ol,ul 
+    {
+        list-style: none;
+    }
+a   {
+     text-decoration: none;
+    }
+i   {
+     color: red;
+     
+     font-size: 3cm;
+     
+     height: auto;
+     
+     width: auto;
+     
+     background-color: lightblue;
+    }
